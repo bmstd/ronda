@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+    <meta
+        name="description"
+        content="Explorá el catálogo de RONDA y descubrí nuestra selección de mates, bombillas, termos y accesorios."
+    >
+    <meta
+        name="robots"
+        content="index, follow"
+    >
+    <meta
+        name="author"
+        content="RONDA"
+    >
+    <meta
+        name="theme-color"
+        content="#173F3F"
+    >
+    <!-- =========================
+        Canonical
+    ========================= -->
+    <link
+        rel="canonical"
+        href="https://bmstd.github.io/ronda/pages/catalogo.html"
+    >
+    <!-- =========================
+        Open Graph
+    ========================= -->
+    <meta
+        property="og:type"
+        content="website"
+    >
+    <meta
+        property="og:locale"
+        content="es_AR"
+    >
+    <meta
+        property="og:site_name"
+        content="RONDA"
+    >
+    <meta
+        property="og:title"
+        content="Catálogo | RONDA"
+    >
+    <meta
+        property="og:description"
+        content="Explorá nuestra selección de mates, bombillas, termos y accesorios para cada ronda."
+    >
+    <meta
+        property="og:url"
+        content="https://bmstd.github.io/ronda/pages/catalogo.html"
+    >
+    <meta
+        property="og:image"
+        content="https://bmstd.github.io/ronda/assets/images/brand/og-catalogo.jpg"
+    >
+    <meta
+        property="og:image:alt"
+        content="Catálogo de productos RONDA"
+    >
+    <!-- =========================
+        X / Twitter
+    ========================= -->
+    <meta
+        name="twitter:card"
+        content="summary_large_image"
+    >
+    <meta
+        name="twitter:title"
+        content="Catálogo | RONDA"
+    >
+    <meta
+        name="twitter:description"
+        content="Explorá nuestra selección de mates, bombillas, termos y accesorios para cada ronda."
+    >
+    <meta
+        name="twitter:url"
+        content="https://bmstd.github.io/ronda/pages/catalogo.html"
+    >
+    <meta
+        name="twitter:image"
+        content="https://bmstd.github.io/ronda/assets/images/brand/og-catalogo.jpg"
+    >
+    <meta
+        name="twitter:image:alt"
+        content="Catálogo de productos RONDA"
+    >
+    <!-- =========================
+        Favicon
+    ========================= -->
+    <link
+        rel="icon"
+        href="../assets/images/brand/logo.png"
+        type="image/png"
+    >
+    <!-- =========================
+        Título
+    ========================= -->
+    <title>
+        Catálogo | RONDA
+    </title>
+    <!-- =========================
+        Styles
+    ========================= -->
+    <link
+        rel="stylesheet"
+        href="../css/styles.css"
+    >
+    <link
+        rel="stylesheet"
+        href="../css/catalogo.css"
+    >
+</head>
+<body>
+    <!-- =========================
+        Navbar
+    ========================= -->
+    <header class="navbar">
+        <div class="navbar__container">
+            <!-- Marca -->
+            <a
+                href="../index.html#inicio"
+                class="navbar__brand"
+                aria-label="RONDA - Inicio"
+            >
+                <img
+                    src="../assets/images/brand/logo.png"
+                    alt=""
+                    class="navbar__logo"
+                >
+                <span class="navbar__name">
+                    RONDA
+                </span>
+            </a>
+            <!-- Navegación -->
+            <nav
+                class="navbar__nav"
+                id="navbar-nav"
+                aria-label="Navegación principal"
+            >
+                <a
+                    href="../index.html#inicio"
+                    class="navbar__link"
+                >
+                    Inicio
+                </a>
+                <a
+                    href="../index.html#coleccion"
+                    class="navbar__link"
+                >
+                    Colección
+                </a>
+                <a
+                    href="../index.html#nuestra-marca"
+                    class="navbar__link"
+                >
+                    Nosotros
+                </a>
+                <a
+                    href="../index.html#contacto"
+                    class="navbar__link"
+                >
+                    Contacto
+                </a>
+            </nav>
+            <!-- CTA -->
+            <a
+                href="./catalogo.html"
+                class="navbar__cta"
+                aria-current="page"
+            >
+                Catálogo
+            </a>
+            <!-- Botón menú mobile -->
+            <button
+                class="navbar__toggle"
+                type="button"
+                aria-label="Abrir menú"
+                aria-expanded="false"
+                aria-controls="navbar-nav"
+            >
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </header>
+    <!-- =========================
+        Contenido principal
+    ========================= -->
+    <main>
+        <!-- =========================
+            Encabezado
+        ========================= -->
+        <section class="catalog-header">
+            <div class="catalog-header__container">
+                <span class="catalog-header__eyebrow">
+                    Catálogo
+                </span>
+                <h1 class="catalog-header__title">
+                    Todo lo necesario para compartir cada ronda.
+                </h1>
+                <p class="catalog-header__text">
+                    Explorá nuestra selección de mates y accesorios pensados
+                    para acompañar cada momento.
+                </p>
+            </div>
+        </section>
+        <!-- =========================
+            Catálogo
+        ========================= -->
+        <section class="catalog">
+            <div class="catalog__container">
+                <!-- Categorías -->
+                <nav
+                    class="catalog__filters"
+                    aria-label="Filtrar productos por categoría"
+                >
+                    <button
+                        type="button"
+                        class="catalog__filter catalog__filter--active"
+                        data-category="todos"
+                    >
+                        Todos
+                    </button>
+                    <button
+                        type="button"
+                        class="catalog__filter"
+                        data-category="mates"
+                    >
+                        Mates
+                    </button>
+                    <button
+                        type="button"
+                        class="catalog__filter"
+                        data-category="bombillas"
+                    >
+                        Bombillas
+                    </button>
+                    <button
+                        type="button"
+                        class="catalog__filter"
+                        data-category="termos"
+                    >
+                        Termos
+                    </button>
+                    <button
+                        type="button"
+                        class="catalog__filter"
+                        data-category="accesorios"
+                    >
+                        Accesorios
+                    </button>
+                </nav>
+                <!-- Productos -->
+                <div
+                    class="catalog__grid"
+                    id="catalog-products"
+                >
+                    <!--
+                        Los productos serán
+                        generados mediante JavaScript.
+                    -->
+                </div>
+            </div>
+        </section>
+        <!-- =========================
+            CTA
+        ========================= -->
+        <section class="catalog-cta">
+            <div class="catalog-cta__container">
+                <span class="catalog-cta__eyebrow">
+                    ¿Buscás algo en particular?
+                </span>
+                <h2 class="catalog-cta__title">
+                    Hablemos.
+                </h2>
+                <p class="catalog-cta__text">
+                    Si no encontrás lo que buscás o querés consultar
+                    por algún producto, escribinos.
+                </p>
+                <a
+                    href="https://wa.me/549XXXXXXXXXX"
+                    class="catalog-cta__link"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Consultar por WhatsApp
+                </a>
+            </div>
+        </section>
+    </main>
+    <!-- =========================
+        Footer
+    ========================= -->
+    <footer class="footer">
+        <div class="footer__container">
+            <!-- Marca -->
+            <a
+                href="../index.html#inicio"
+                class="footer__brand"
+                aria-label="RONDA - Inicio"
+            >
+                <img
+                    src="../assets/images/brand/logo.png"
+                    alt=""
+                    class="footer__logo"
+                >
+                <span class="footer__name">
+                    RONDA
+                </span>
+            </a>
+            <!-- Navegación -->
+            <nav
+                class="footer__nav"
+                aria-label="Navegación del pie de página"
+            >
+                <a
+                    href="../index.html#inicio"
+                    class="footer__link"
+                >
+                    Inicio
+                </a>
+                <a
+                    href="../index.html#coleccion"
+                    class="footer__link"
+                >
+                    Colección
+                </a>
+                <a
+                    href="../index.html#nuestra-marca"
+                    class="footer__link"
+                >
+                    Nosotros
+                </a>
+                <a
+                    href="../index.html#contacto"
+                    class="footer__link"
+                >
+                    Contacto
+                </a>
+            </nav>
+            <!-- Copyright -->
+            <span class="footer__copyright">
+                © 2026 RONDA
+            </span>
+        </div>
+    </footer>
+    <!-- =========================
+        Scripts
+    ========================= -->
+    <script src="../js/main.js"></script>
+    <script src="../js/productos.js"></script>
+    <script src="../js/catalogo.js"></script>
+
+</body>
+
+</html>
